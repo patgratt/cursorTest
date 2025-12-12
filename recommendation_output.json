@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-12-11T22:21:05.535114",
+  "current_price": 57.62,
+  "predicted_price": 56.014930715365345,
+  "predicted_return": -0.027856113929792623,
+  "recommendation": {
+    "strategy": "PUT",
+    "recommended_contract": {
+      "type": "PUT",
+      "strike": 57.0,
+      "bid": 0.38,
+      "ask": 0.4,
+      "last_price": 0.4,
+      "mid_price": 0.39,
+      "volume": 18451,
+      "open_interest": 200,
+      "expected_profit": 0.5950692846346547,
+      "expected_return_pct": 152.58186785503966,
+      "contract_symbol": "SLV251212P00057000"
+    },
+    "reasoning": "Model predicts bearish movement (-2.79% expected return). Recommended PUT option with strike $57.00. Expected profit: $0.60 (152.58% return). Current price: $57.62, Predicted price: $56.01.",
+    "predicted_price": 56.014930715365345,
+    "current_price": 57.62,
+    "expected_return": -0.027856113929792623
+  }
+}
